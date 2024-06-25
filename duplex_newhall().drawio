@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-25T05:44:25.938Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="lcYBG2Np_8RzyESaiwiB" version="24.5.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-25T07:45:37.172Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="umSAvYP-qPmIxBhEkQfx" version="24.5.5" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1434" dy="830" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2110,11 +2110,14 @@
         <mxCell id="7aKjPRujK2uRThXWp7mu-412" value="line &lt;font style=&quot;font-size: 16px;&quot;&gt;1924&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontStyle=1;fontColor=#FF3333;fontSize=16;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="169.99999999999994" y="4120" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="SXtpPZS-0CLr0BqcFeBM-0" value="for (tt=0; tt&amp;lt;=tfl; tt++)" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="25" y="4280" width="870" height="910" as="geometry" />
+        <mxCell id="SXtpPZS-0CLr0BqcFeBM-0" value="Sㄸ" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="25" y="4280" width="870" height="1110" as="geometry" />
         </mxCell>
         <mxCell id="SXtpPZS-0CLr0BqcFeBM-2" value="bit = (CPU_INT64U)0x01&amp;lt;&amp;lt;(tt-1)" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="SXtpPZS-0CLr0BqcFeBM-0">
           <mxGeometry x="311.75" y="40" width="239" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SXtpPZS-0CLr0BqcFeBM-8" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="SXtpPZS-0CLr0BqcFeBM-0" source="SXtpPZS-0CLr0BqcFeBM-3" target="SXtpPZS-0CLr0BqcFeBM-5">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="SXtpPZS-0CLr0BqcFeBM-3" value="!(HUP_CALLIN &amp;amp; bit) &amp;amp;&amp;amp; (hup_back &amp;amp; bit) &amp;amp;&amp;amp;&amp;nbsp;&lt;div&gt;((HALL_UP_CALL[1] | HALL_UP_CALL[2]) &amp;amp; bit))&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="SXtpPZS-0CLr0BqcFeBM-0">
           <mxGeometry x="244.25" y="120" width="374" height="100" as="geometry" />
@@ -2122,11 +2125,26 @@
         <mxCell id="SXtpPZS-0CLr0BqcFeBM-4" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="SXtpPZS-0CLr0BqcFeBM-0" source="SXtpPZS-0CLr0BqcFeBM-2" target="SXtpPZS-0CLr0BqcFeBM-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="SXtpPZS-0CLr0BqcFeBM-9" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="SXtpPZS-0CLr0BqcFeBM-0" source="SXtpPZS-0CLr0BqcFeBM-5" target="SXtpPZS-0CLr0BqcFeBM-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="SXtpPZS-0CLr0BqcFeBM-5" value="(floor_num(bit) != FLNO[1]) &amp;amp;&amp;amp; (floor_num(bit) != FLNO[2])" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="SXtpPZS-0CLr0BqcFeBM-0">
           <mxGeometry x="244.25" y="270" width="374" height="100" as="geometry" />
         </mxCell>
         <mxCell id="SXtpPZS-0CLr0BqcFeBM-6" value="두 호기 모두 현재 층이 아닐 때" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="SXtpPZS-0CLr0BqcFeBM-0">
           <mxGeometry x="595" y="290" width="235" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SXtpPZS-0CLr0BqcFeBM-7" value="SELECT_HALL_DN &amp;amp;= ~bit&lt;div&gt;HALL_DN_CALL[1] &amp;amp;= ~bit&lt;/div&gt;&lt;div&gt;HALL_DN_CALL[2] &amp;amp;= ~bit&lt;br&gt;&lt;/div&gt;&lt;div&gt;HALL_DN_LAMP &amp;amp;= ~bit&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="SXtpPZS-0CLr0BqcFeBM-0">
+          <mxGeometry x="327.19" y="430" width="208.12" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="SXtpPZS-0CLr0BqcFeBM-10" value="!(HUP_CALLIN &amp;amp; bit) &amp;amp;&amp;amp; (hup_back &amp;amp; bit) &amp;amp;&amp;amp;&amp;nbsp;&lt;div&gt;((HALL_UP_CALL[1] | HALL_UP_CALL[2]) &amp;amp; bit))&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="SXtpPZS-0CLr0BqcFeBM-0">
+          <mxGeometry x="244.25" y="560" width="374" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="SXtpPZS-0CLr0BqcFeBM-11" value="(floor_num(bit) != FLNO[1]) &amp;amp;&amp;amp; (floor_num(bit) != FLNO[2])" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="SXtpPZS-0CLr0BqcFeBM-0">
+          <mxGeometry x="244.25" y="710" width="374" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="SXtpPZS-0CLr0BqcFeBM-12" value="SELECT_HALL_DN &amp;amp;= ~bit&lt;div&gt;HALL_DN_CALL[1] &amp;amp;= ~bit&lt;/div&gt;&lt;div&gt;HALL_DN_CALL[2] &amp;amp;= ~bit&lt;br&gt;&lt;/div&gt;&lt;div&gt;HALL_DN_LAMP &amp;amp;= ~bit&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="SXtpPZS-0CLr0BqcFeBM-0">
+          <mxGeometry x="327.19" y="870" width="208.12" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
