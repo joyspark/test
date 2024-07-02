@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-07-02T06:00:56.988Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="ZQQo8_AmFfzCCz2FZUUB" version="24.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-02T08:26:57.625Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="ckVmXoemdc9AOIfOz4tD" version="24.6.2" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1793" dy="975" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1687" dy="918" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -249,7 +249,7 @@
         <mxCell id="VboggQ4ZZs6mZk52aU4b-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="VboggQ4ZZs6mZk52aU4b-43" target="VboggQ4ZZs6mZk52aU4b-57" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="VboggQ4ZZs6mZk52aU4b-43" value="fㅜ프" style="swimlane;whiteSpace=wrap;html=1;startSize=23;fillColor=#fff2cc;strokeColor=#d6b656;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+        <mxCell id="VboggQ4ZZs6mZk52aU4b-43" value="fㅜ프" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="210" y="1420" width="5360" height="2590" as="geometry" />
         </mxCell>
         <mxCell id="7aKjPRujK2uRThXWp7mu-335" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;" parent="VboggQ4ZZs6mZk52aU4b-43" source="7aKjPRujK2uRThXWp7mu-57" target="7aKjPRujK2uRThXWp7mu-180" edge="1">
@@ -2104,8 +2104,14 @@
         <mxCell id="llCTAwPbCz8SC-4sYd1i-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;dashPattern=12 12;strokeColor=#9E9E9E;" edge="1" parent="VboggQ4ZZs6mZk52aU4b-43" source="1Z9f30oU2qJtN2VI47Cc-25" target="llCTAwPbCz8SC-4sYd1i-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="llCTAwPbCz8SC-4sYd1i-6" value="층 마다 새로운 콜 또는 이전에 등록된 층과 일치하는 층이 있는데&lt;div&gt;그게 장애 홀업콜이면&lt;/div&gt;&lt;div&gt;도어시간 추가&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;일치하는 층 temp에서 지우고 Call_Buffer에 채우기&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;즉 쌓여 있는 콜을 실제 운행 할 Buffer에 넣어 처리&lt;/div&gt;" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="VboggQ4ZZs6mZk52aU4b-43">
-          <mxGeometry x="673.13" y="1310" width="156.87" height="190" as="geometry" />
+        <mxCell id="llCTAwPbCz8SC-4sYd1i-6" value="층 마다 새로운 콜 또는 이전에 등록된 층과 일치하는 층이 있는지 확인해서 버퍼에 담는 loop&amp;nbsp;&lt;div&gt;&lt;br&gt;&lt;div&gt;그게 장애 홀업콜이면&lt;/div&gt;&lt;div&gt;장애호기 도어시간 추가&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;일치하는 층 temp에서 지우고 Call_Buffer에 채우기&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;즉 쌓여 있는 콜을 실제 운행 할 Buffer에 넣어 처리&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="VboggQ4ZZs6mZk52aU4b-43">
+          <mxGeometry x="673.13" y="1280" width="196.87" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="llCTAwPbCz8SC-4sYd1i-7" value="방향성 1(up)이고 up hall콜일 때" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="VboggQ4ZZs6mZk52aU4b-43">
+          <mxGeometry x="652.88" y="425.5" width="237.37" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="llCTAwPbCz8SC-4sYd1i-8" value="왜 car_temp는 첫 loop네서만 비교 및 처리하는지" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="VboggQ4ZZs6mZk52aU4b-43">
+          <mxGeometry x="900" y="1580" width="140" height="50" as="geometry" />
         </mxCell>
         <mxCell id="SXtpPZS-0CLr0BqcFeBM-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="VboggQ4ZZs6mZk52aU4b-57" target="SXtpPZS-0CLr0BqcFeBM-0" edge="1">
           <mxGeometry relative="1" as="geometry" />
