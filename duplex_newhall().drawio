@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-07-02T05:13:39.342Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="9l2ZPkH4ICvJfbMAyApy" version="24.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-02T06:00:56.988Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="ZQQo8_AmFfzCCz2FZUUB" version="24.6.2" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1434" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1793" dy="975" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -249,7 +249,7 @@
         <mxCell id="VboggQ4ZZs6mZk52aU4b-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="VboggQ4ZZs6mZk52aU4b-43" target="VboggQ4ZZs6mZk52aU4b-57" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="VboggQ4ZZs6mZk52aU4b-43" value="ta" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+        <mxCell id="VboggQ4ZZs6mZk52aU4b-43" value="fㅜ프" style="swimlane;whiteSpace=wrap;html=1;startSize=23;fillColor=#fff2cc;strokeColor=#d6b656;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="210" y="1420" width="5360" height="2590" as="geometry" />
         </mxCell>
         <mxCell id="7aKjPRujK2uRThXWp7mu-335" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;" parent="VboggQ4ZZs6mZk52aU4b-43" source="7aKjPRujK2uRThXWp7mu-57" target="7aKjPRujK2uRThXWp7mu-180" edge="1">
@@ -270,7 +270,7 @@
         <mxCell id="VboggQ4ZZs6mZk52aU4b-45" value="!(NONSTOP[i] &amp;amp; (NEW_HALL_UP | DN)) &amp;amp;&amp;amp; !OVER_LOAD[i]&lt;div&gt;&amp;amp;&amp;amp; ((newflup &amp;amp;&amp;amp; ((newflup &amp;lt; TFL[i]) &amp;amp;&amp;amp; (newflup &amp;gt;= BASE_FLOOR[i]))))&lt;/div&gt;&lt;div&gt;|| (newfldn &amp;amp;&amp;amp; ((newfldn &amp;lt;= TFL[i]) &amp;amp;&amp;amp; (newfldn &amp;lt;= TFL[i]) &amp;amp;&amp;amp;(newfldn &amp;gt; BASE_FLOOR[i])))&lt;/div&gt;&lt;div&gt;&amp;amp;&amp;amp; ((i==1 (MAON_RX_DATA.DRV_MODE &amp;amp; 0x80))&amp;nbsp; ||&lt;/div&gt;&lt;div&gt;(i==2 &amp;amp;&amp;amp; (CAN_RX_DATADRV_MODE &amp;amp; 0x80)))&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" parent="VboggQ4ZZs6mZk52aU4b-43" vertex="1">
           <mxGeometry x="16.72" y="60" width="570.78" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="VboggQ4ZZs6mZk52aU4b-46" value="새로들어온 콜이 nonstop 층이 아니고, 과부화 없음&lt;div&gt;&amp;amp;&amp;amp; newflup또는newfldn 콜이 있고 정상 층 범위에 있음&lt;/div&gt;&lt;div&gt;&amp;amp;&amp;amp; 각 호기 별 운전 모드가 자동운전임&lt;/div&gt;" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.roundRectCallout;dx=30;dy=15;size=5;boundedLbl=1;" parent="VboggQ4ZZs6mZk52aU4b-43" vertex="1">
+        <mxCell id="VboggQ4ZZs6mZk52aU4b-46" value="새로들어온 콜이 nonstop 층이 아니고, 과부화 없음&lt;div&gt;&amp;amp;&amp;amp; newflup또는newfldn 콜이 있고 정상 층 범위에 있음&lt;/div&gt;&lt;div&gt;&amp;amp;&amp;amp; 각 호기 별 운전 모드가 자동운전임&lt;/div&gt;" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.roundRectCallout;dx=30;dy=15;size=5;boundedLbl=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="VboggQ4ZZs6mZk52aU4b-43" vertex="1">
           <mxGeometry x="517.5" y="50" width="312.5" height="80" as="geometry" />
         </mxCell>
         <mxCell id="VboggQ4ZZs6mZk52aU4b-48" value="정지대기 중인가?&lt;div&gt;(NDR[i] == 0)&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" parent="VboggQ4ZZs6mZk52aU4b-43" vertex="1">
@@ -423,16 +423,16 @@
           <mxGeometry x="643.75" y="1080" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="1Z9f30oU2qJtN2VI47Cc-70" value="for( j=flno; j&amp;lt;=newfl; j++)" style="swimlane;whiteSpace=wrap;html=1;" parent="VboggQ4ZZs6mZk52aU4b-43" vertex="1">
-          <mxGeometry x="115.5" y="1193" width="594.5" height="437" as="geometry" />
+          <mxGeometry x="170" y="1193" width="500" height="437" as="geometry" />
         </mxCell>
         <mxCell id="1Z9f30oU2qJtN2VI47Cc-72" value="k = (((CPU_INT64U)0x01&amp;lt;&amp;lt;(j-1)) &amp;amp; (NEW_HALL_UP| hallup_temp[i] | whallup_temp[i] | car_temp[i]))" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1Z9f30oU2qJtN2VI47Cc-70" vertex="1">
-          <mxGeometry x="120" y="47" width="350" height="30" as="geometry" />
+          <mxGeometry x="82" y="47" width="350" height="30" as="geometry" />
         </mxCell>
         <mxCell id="1Z9f30oU2qJtN2VI47Cc-96" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" parent="1Z9f30oU2qJtN2VI47Cc-70" source="1Z9f30oU2qJtN2VI47Cc-75" target="1Z9f30oU2qJtN2VI47Cc-72" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="1Z9f30oU2qJtN2VI47Cc-75" value="k" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" parent="1Z9f30oU2qJtN2VI47Cc-70" vertex="1">
-          <mxGeometry x="278" y="97" width="70.07" height="33" as="geometry" />
+          <mxGeometry x="240" y="97" width="70.07" height="33" as="geometry" />
         </mxCell>
         <mxCell id="1Z9f30oU2qJtN2VI47Cc-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1Z9f30oU2qJtN2VI47Cc-70" source="1Z9f30oU2qJtN2VI47Cc-72" target="1Z9f30oU2qJtN2VI47Cc-75" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -443,20 +443,20 @@
         <mxCell id="1Z9f30oU2qJtN2VI47Cc-201" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1Z9f30oU2qJtN2VI47Cc-70" source="1Z9f30oU2qJtN2VI47Cc-84" target="1Z9f30oU2qJtN2VI47Cc-88" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="487" y="179" />
-              <mxPoint x="487" y="297" />
-              <mxPoint x="313" y="297" />
+              <mxPoint x="449" y="179" />
+              <mxPoint x="449" y="297" />
+              <mxPoint x="275" y="297" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="1Z9f30oU2qJtN2VI47Cc-84" value="whallup_temp[i] &amp;amp; ((CPU_INT64U)0x01&amp;lt;&amp;lt;(j-1))" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" parent="1Z9f30oU2qJtN2VI47Cc-70" vertex="1">
-          <mxGeometry x="159.55" y="157" width="306.96" height="43" as="geometry" />
+          <mxGeometry x="121.55000000000001" y="157" width="306.96" height="43" as="geometry" />
         </mxCell>
         <mxCell id="1Z9f30oU2qJtN2VI47Cc-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1Z9f30oU2qJtN2VI47Cc-70" source="1Z9f30oU2qJtN2VI47Cc-85" target="1Z9f30oU2qJtN2VI47Cc-88" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="1Z9f30oU2qJtN2VI47Cc-85" value="whdoor++" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1Z9f30oU2qJtN2VI47Cc-70" vertex="1">
-          <mxGeometry x="263.03" y="246" width="100" height="30" as="geometry" />
+          <mxGeometry x="225.02999999999997" y="246" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="1Z9f30oU2qJtN2VI47Cc-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1Z9f30oU2qJtN2VI47Cc-70" source="1Z9f30oU2qJtN2VI47Cc-75" target="1Z9f30oU2qJtN2VI47Cc-84" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -465,22 +465,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="1Z9f30oU2qJtN2VI47Cc-88" value="hallup_temp[i] &amp;amp;= ~((CPU_INT64U)0x01&amp;lt;&amp;lt;(j-1))&lt;div&gt;whallup_temp[i]&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;amp;= ~((CPU_INT64U)0x01&amp;lt;&amp;lt;(j-1))&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;car_temp[i]&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;amp;= ~((CPU_INT64U)0x01&amp;lt;&amp;lt;(j-1))&lt;/span&gt;&lt;/div&gt;&lt;div&gt;CALL_BUFFERE[i][m] = j&lt;/div&gt;&lt;div&gt;m++&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1Z9f30oU2qJtN2VI47Cc-70" vertex="1">
-          <mxGeometry x="162.03" y="316" width="302" height="83" as="geometry" />
+          <mxGeometry x="124.03" y="316" width="302" height="83" as="geometry" />
         </mxCell>
         <mxCell id="1Z9f30oU2qJtN2VI47Cc-91" value="Yes&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; text-wrap: nowrap;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22FIRST_HALL_UP%26lt%3Bdiv%26gt%3BFIRST_HALL_DN%26lt%3B%2Fdiv%26gt%3B%26lt%3Bdiv%26gt%3B%ED%88%AC%ED%84%B0%EC%B9%98%20%EA%B3%A0%EB%A0%A4%ED%95%B4%EC%84%9C%26amp%3Bnbsp%3B%26lt%3B%2Fdiv%26gt%3B%26lt%3Bdiv%26gt%3B%EC%83%88%EB%A1%9C%EB%93%A4%EC%96%B4%EC%98%A8%20%EC%BD%9C%20%EC%9E%88%EB%8A%94%EC%A7%80%20%EA%B3%84%EC%82%B0%26lt%3B%2Fdiv%26gt%3B%22%20style%3D%22rounded%3D1%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3BfontSize%3D12%3Bglass%3D0%3BstrokeWidth%3D1%3Bshadow%3D0%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22260%22%20y%3D%2290%22%20width%3D%22150%22%20height%3D%2260%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1Z9f30oU2qJtN2VI47Cc-70" vertex="1">
-          <mxGeometry x="319.03999999999996" y="127" width="60" height="30" as="geometry" />
+          <mxGeometry x="281.03999999999996" y="127" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="1Z9f30oU2qJtN2VI47Cc-92" value="Yes&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; text-wrap: nowrap;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22FIRST_HALL_UP%26lt%3Bdiv%26gt%3BFIRST_HALL_DN%26lt%3B%2Fdiv%26gt%3B%26lt%3Bdiv%26gt%3B%ED%88%AC%ED%84%B0%EC%B9%98%20%EA%B3%A0%EB%A0%A4%ED%95%B4%EC%84%9C%26amp%3Bnbsp%3B%26lt%3B%2Fdiv%26gt%3B%26lt%3Bdiv%26gt%3B%EC%83%88%EB%A1%9C%EB%93%A4%EC%96%B4%EC%98%A8%20%EC%BD%9C%20%EC%9E%88%EB%8A%94%EC%A7%80%20%EA%B3%84%EC%82%B0%26lt%3B%2Fdiv%26gt%3B%22%20style%3D%22rounded%3D1%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3BfontSize%3D12%3Bglass%3D0%3BstrokeWidth%3D1%3Bshadow%3D0%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22260%22%20y%3D%2290%22%20width%3D%22150%22%20height%3D%2260%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1Z9f30oU2qJtN2VI47Cc-70" vertex="1">
-          <mxGeometry x="319.03999999999996" y="209" width="60" height="30" as="geometry" />
+          <mxGeometry x="281.03999999999996" y="209" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="1Z9f30oU2qJtN2VI47Cc-93" value="No" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1Z9f30oU2qJtN2VI47Cc-70" vertex="1">
-          <mxGeometry x="433.03999999999996" y="179" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="1Z9f30oU2qJtN2VI47Cc-76" value="할당된 콜이 현재층 ~ up호콜 층 사이에 있다면" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;position2=0.14;" parent="1Z9f30oU2qJtN2VI47Cc-70" vertex="1">
-          <mxGeometry x="433.04" width="156.96" height="67" as="geometry" />
+          <mxGeometry x="395.03999999999996" y="179" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="1Z9f30oU2qJtN2VI47Cc-218" value="No" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1Z9f30oU2qJtN2VI47Cc-70" vertex="1">
-          <mxGeometry x="238" y="107" width="60" height="30" as="geometry" />
+          <mxGeometry x="200" y="107" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="1Z9f30oU2qJtN2VI47Cc-74" value="Yes&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; text-wrap: nowrap;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22FIRST_HALL_UP%26lt%3Bdiv%26gt%3BFIRST_HALL_DN%26lt%3B%2Fdiv%26gt%3B%26lt%3Bdiv%26gt%3B%ED%88%AC%ED%84%B0%EC%B9%98%20%EA%B3%A0%EB%A0%A4%ED%95%B4%EC%84%9C%26amp%3Bnbsp%3B%26lt%3B%2Fdiv%26gt%3B%26lt%3Bdiv%26gt%3B%EC%83%88%EB%A1%9C%EB%93%A4%EC%96%B4%EC%98%A8%20%EC%BD%9C%20%EC%9E%88%EB%8A%94%EC%A7%80%20%EA%B3%84%EC%82%B0%26lt%3B%2Fdiv%26gt%3B%22%20style%3D%22rounded%3D1%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3BfontSize%3D12%3Bglass%3D0%3BstrokeWidth%3D1%3Bshadow%3D0%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22260%22%20y%3D%2290%22%20width%3D%22150%22%20height%3D%2260%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="VboggQ4ZZs6mZk52aU4b-43" vertex="1">
           <mxGeometry x="510" y="1144" width="60" height="30" as="geometry" />
@@ -2095,8 +2092,20 @@
         <mxCell id="7aKjPRujK2uRThXWp7mu-411" value="line &lt;font style=&quot;font-size: 16px;&quot;&gt;1560&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontStyle=1;fontColor=#FF3333;fontSize=16;" parent="VboggQ4ZZs6mZk52aU4b-43" vertex="1">
           <mxGeometry x="249.99999999999994" y="30" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="llCTAwPbCz8SC-4sYd1i-2" value="새로들어온 콜과 카의 위치&lt;div&gt;비교해서 방향성 저장&lt;/div&gt;" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.oval_callout" vertex="1" parent="VboggQ4ZZs6mZk52aU4b-43">
+        <mxCell id="llCTAwPbCz8SC-4sYd1i-2" value="새로들어온 콜과 카의 위치&lt;div&gt;비교해서 방향성 저장&lt;/div&gt;" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.oval_callout;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="VboggQ4ZZs6mZk52aU4b-43">
           <mxGeometry x="367.19" y="330" width="172.5" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="llCTAwPbCz8SC-4sYd1i-3" value="왜 flno에 +1, -1 하는지&lt;div&gt;모르겠음.&lt;/div&gt;" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="VboggQ4ZZs6mZk52aU4b-43">
+          <mxGeometry x="740" y="750" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="llCTAwPbCz8SC-4sYd1i-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;dashPattern=8 8;strokeColor=#9E9E9E;" edge="1" parent="VboggQ4ZZs6mZk52aU4b-43" source="1Z9f30oU2qJtN2VI47Cc-38" target="llCTAwPbCz8SC-4sYd1i-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="llCTAwPbCz8SC-4sYd1i-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;dashPattern=12 12;strokeColor=#9E9E9E;" edge="1" parent="VboggQ4ZZs6mZk52aU4b-43" source="1Z9f30oU2qJtN2VI47Cc-25" target="llCTAwPbCz8SC-4sYd1i-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="llCTAwPbCz8SC-4sYd1i-6" value="층 마다 새로운 콜 또는 이전에 등록된 층과 일치하는 층이 있는데&lt;div&gt;그게 장애 홀업콜이면&lt;/div&gt;&lt;div&gt;도어시간 추가&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;일치하는 층 temp에서 지우고 Call_Buffer에 채우기&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;즉 쌓여 있는 콜을 실제 운행 할 Buffer에 넣어 처리&lt;/div&gt;" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="VboggQ4ZZs6mZk52aU4b-43">
+          <mxGeometry x="673.13" y="1310" width="156.87" height="190" as="geometry" />
         </mxCell>
         <mxCell id="SXtpPZS-0CLr0BqcFeBM-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="VboggQ4ZZs6mZk52aU4b-57" target="SXtpPZS-0CLr0BqcFeBM-0" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -2821,10 +2830,10 @@
         <mxCell id="n0l1B9VZB7CHdYE6TJhd-136" value="Yes&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; text-wrap: nowrap;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22FIRST_HALL_UP%26lt%3Bdiv%26gt%3BFIRST_HALL_DN%26lt%3B%2Fdiv%26gt%3B%26lt%3Bdiv%26gt%3B%ED%88%AC%ED%84%B0%EC%B9%98%20%EA%B3%A0%EB%A0%A4%ED%95%B4%EC%84%9C%26amp%3Bnbsp%3B%26lt%3B%2Fdiv%26gt%3B%26lt%3Bdiv%26gt%3B%EC%83%88%EB%A1%9C%EB%93%A4%EC%96%B4%EC%98%A8%20%EC%BD%9C%20%EC%9E%88%EB%8A%94%EC%A7%80%20%EA%B3%84%EC%82%B0%26lt%3B%2Fdiv%26gt%3B%22%20style%3D%22rounded%3D1%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3BfontSize%3D12%3Bglass%3D0%3BstrokeWidth%3D1%3Bshadow%3D0%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22260%22%20y%3D%2290%22%20width%3D%22150%22%20height%3D%2260%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="3980" y="4701" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="llCTAwPbCz8SC-4sYd1i-0" value="일치하는 층이 SELECT_HALL_* 에 있으면 NEW_HALL 쪽으로 빼고 있던건 삭제" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;position2=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="llCTAwPbCz8SC-4sYd1i-0" value="일치하는 층이 SELECT_HALL_* 에 있으면 NEW_HALL 쪽으로 빼고 있던건 삭제" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;position2=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="527.5" y="535" width="190" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="llCTAwPbCz8SC-4sYd1i-1" value="새로 들어온 콜이 있으면 up, dn에 맞게 변수에 입력" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;position2=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="llCTAwPbCz8SC-4sYd1i-1" value="새로 들어온 콜이 있으면 up, dn에 맞게 변수에 입력" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;position2=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="560" y="870" width="150" height="70" as="geometry" />
         </mxCell>
       </root>
