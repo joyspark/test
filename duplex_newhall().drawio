@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-07-02T08:26:57.625Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="ckVmXoemdc9AOIfOz4tD" version="24.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-03T02:09:04.094Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="jPB6Y8Izsqi75iN1PUDW" version="24.6.3" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1687" dy="918" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2391" dy="1114" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -16,7 +16,7 @@
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-6" value="HALL_TWOTOUCH&lt;div&gt;투터치 기능이 있는가?&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="30" y="90" width="170" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="E-QepIE0ANGa5jjJBdtW-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-7" edge="1" target="E-QepIE0ANGa5jjJBdtW-22">
+        <mxCell id="E-QepIE0ANGa5jjJBdtW-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-7" target="E-QepIE0ANGa5jjJBdtW-22" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="220" y="340" as="targetPoint" />
           </mxGeometry>
@@ -39,7 +39,7 @@
             <mxPoint x="115" y="220" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="E-QepIE0ANGa5jjJBdtW-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="E-QepIE0ANGa5jjJBdtW-9" edge="1" target="E-QepIE0ANGa5jjJBdtW-22">
+        <mxCell id="E-QepIE0ANGa5jjJBdtW-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="E-QepIE0ANGa5jjJBdtW-9" target="E-QepIE0ANGa5jjJBdtW-22" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="220" y="340" as="targetPoint" />
           </mxGeometry>
@@ -2092,26 +2092,41 @@
         <mxCell id="7aKjPRujK2uRThXWp7mu-411" value="line &lt;font style=&quot;font-size: 16px;&quot;&gt;1560&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontStyle=1;fontColor=#FF3333;fontSize=16;" parent="VboggQ4ZZs6mZk52aU4b-43" vertex="1">
           <mxGeometry x="249.99999999999994" y="30" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="llCTAwPbCz8SC-4sYd1i-2" value="새로들어온 콜과 카의 위치&lt;div&gt;비교해서 방향성 저장&lt;/div&gt;" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.oval_callout;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="VboggQ4ZZs6mZk52aU4b-43">
+        <mxCell id="llCTAwPbCz8SC-4sYd1i-2" value="새로들어온 콜과 카의 위치&lt;div&gt;비교해서 방향성 저장&lt;/div&gt;" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.oval_callout;fillColor=#fff2cc;strokeColor=#d6b656;" parent="VboggQ4ZZs6mZk52aU4b-43" vertex="1">
           <mxGeometry x="367.19" y="330" width="172.5" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="llCTAwPbCz8SC-4sYd1i-3" value="왜 flno에 +1, -1 하는지&lt;div&gt;모르겠음.&lt;/div&gt;" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="VboggQ4ZZs6mZk52aU4b-43">
+        <mxCell id="llCTAwPbCz8SC-4sYd1i-3" value="왜 flno에 +1, -1 하는지&lt;div&gt;모르겠음.&lt;/div&gt;" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document;fillColor=#f8cecc;strokeColor=#b85450;" parent="VboggQ4ZZs6mZk52aU4b-43" vertex="1">
           <mxGeometry x="740" y="750" width="140" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="llCTAwPbCz8SC-4sYd1i-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;dashPattern=8 8;strokeColor=#9E9E9E;" edge="1" parent="VboggQ4ZZs6mZk52aU4b-43" source="1Z9f30oU2qJtN2VI47Cc-38" target="llCTAwPbCz8SC-4sYd1i-3">
+        <mxCell id="llCTAwPbCz8SC-4sYd1i-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;dashPattern=8 8;strokeColor=#9E9E9E;" parent="VboggQ4ZZs6mZk52aU4b-43" source="1Z9f30oU2qJtN2VI47Cc-38" target="llCTAwPbCz8SC-4sYd1i-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="llCTAwPbCz8SC-4sYd1i-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;dashPattern=12 12;strokeColor=#9E9E9E;" edge="1" parent="VboggQ4ZZs6mZk52aU4b-43" source="1Z9f30oU2qJtN2VI47Cc-25" target="llCTAwPbCz8SC-4sYd1i-3">
+        <mxCell id="llCTAwPbCz8SC-4sYd1i-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;dashPattern=12 12;strokeColor=#9E9E9E;" parent="VboggQ4ZZs6mZk52aU4b-43" source="1Z9f30oU2qJtN2VI47Cc-25" target="llCTAwPbCz8SC-4sYd1i-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="llCTAwPbCz8SC-4sYd1i-6" value="층 마다 새로운 콜 또는 이전에 등록된 층과 일치하는 층이 있는지 확인해서 버퍼에 담는 loop&amp;nbsp;&lt;div&gt;&lt;br&gt;&lt;div&gt;그게 장애 홀업콜이면&lt;/div&gt;&lt;div&gt;장애호기 도어시간 추가&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;일치하는 층 temp에서 지우고 Call_Buffer에 채우기&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;즉 쌓여 있는 콜을 실제 운행 할 Buffer에 넣어 처리&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="VboggQ4ZZs6mZk52aU4b-43">
+        <mxCell id="llCTAwPbCz8SC-4sYd1i-6" value="층 마다 새로운 콜 또는 이전에&lt;div&gt;등록된 층과 일치하는 층이 있는지 확인해서 버퍼에 담는 loop&amp;nbsp;&lt;div&gt;&lt;br&gt;&lt;div&gt;그게 장애 홀업콜이면&lt;/div&gt;&lt;div&gt;장애호기 도어시간 추가&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;일치하는 층 temp에서 지우고 Call_Buffer에 채우기&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;즉 쌓여 있는 콜을 실제 운행 할 Buffer에 넣어 처리&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document;fillColor=#fff2cc;strokeColor=#d6b656;" parent="VboggQ4ZZs6mZk52aU4b-43" vertex="1">
           <mxGeometry x="673.13" y="1280" width="196.87" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="llCTAwPbCz8SC-4sYd1i-7" value="방향성 1(up)이고 up hall콜일 때" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="VboggQ4ZZs6mZk52aU4b-43">
-          <mxGeometry x="652.88" y="425.5" width="237.37" height="60" as="geometry" />
+        <mxCell id="llCTAwPbCz8SC-4sYd1i-7" value="방향성 1(up)이고" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="VboggQ4ZZs6mZk52aU4b-43" vertex="1">
+          <mxGeometry x="622.07" y="455" width="127.12" height="35.5" as="geometry" />
         </mxCell>
-        <mxCell id="llCTAwPbCz8SC-4sYd1i-8" value="왜 car_temp는 첫 loop네서만 비교 및 처리하는지" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="VboggQ4ZZs6mZk52aU4b-43">
+        <mxCell id="llCTAwPbCz8SC-4sYd1i-8" value="왜 car_temp는 첫 loop네서만 비교 및 처리하는지" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document;fillColor=#f8cecc;strokeColor=#b85450;" parent="VboggQ4ZZs6mZk52aU4b-43" vertex="1">
           <mxGeometry x="900" y="1580" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IsUhegByx9YxP3dUQycZ-1" value="콜 등록된 층과 현재층이 같으면&lt;div&gt;리셋(?) 처리&lt;/div&gt;" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="VboggQ4ZZs6mZk52aU4b-43">
+          <mxGeometry x="760.32" y="1010" width="196.87" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IsUhegByx9YxP3dUQycZ-2" value="방향성 2(dn)이고" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="VboggQ4ZZs6mZk52aU4b-43">
+          <mxGeometry x="2615.51" y="465" width="114.49" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IsUhegByx9YxP3dUQycZ-3" value="dn hall콜일 때" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="VboggQ4ZZs6mZk52aU4b-43">
+          <mxGeometry x="2599.94" y="960" width="102.93" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="IsUhegByx9YxP3dUQycZ-4" value="dn hall콜일 때" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="VboggQ4ZZs6mZk52aU4b-43">
+          <mxGeometry x="1659.5" y="941.5" width="102.93" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="IsUhegByx9YxP3dUQycZ-5" value="up hall콜일 때" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="VboggQ4ZZs6mZk52aU4b-43">
+          <mxGeometry x="554.5699999999999" y="949" width="102.93" height="35" as="geometry" />
         </mxCell>
         <mxCell id="SXtpPZS-0CLr0BqcFeBM-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="VboggQ4ZZs6mZk52aU4b-57" target="SXtpPZS-0CLr0BqcFeBM-0" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -2836,10 +2851,10 @@
         <mxCell id="n0l1B9VZB7CHdYE6TJhd-136" value="Yes&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; text-wrap: nowrap;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22FIRST_HALL_UP%26lt%3Bdiv%26gt%3BFIRST_HALL_DN%26lt%3B%2Fdiv%26gt%3B%26lt%3Bdiv%26gt%3B%ED%88%AC%ED%84%B0%EC%B9%98%20%EA%B3%A0%EB%A0%A4%ED%95%B4%EC%84%9C%26amp%3Bnbsp%3B%26lt%3B%2Fdiv%26gt%3B%26lt%3Bdiv%26gt%3B%EC%83%88%EB%A1%9C%EB%93%A4%EC%96%B4%EC%98%A8%20%EC%BD%9C%20%EC%9E%88%EB%8A%94%EC%A7%80%20%EA%B3%84%EC%82%B0%26lt%3B%2Fdiv%26gt%3B%22%20style%3D%22rounded%3D1%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3BfontSize%3D12%3Bglass%3D0%3BstrokeWidth%3D1%3Bshadow%3D0%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22260%22%20y%3D%2290%22%20width%3D%22150%22%20height%3D%2260%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="3980" y="4701" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="llCTAwPbCz8SC-4sYd1i-0" value="일치하는 층이 SELECT_HALL_* 에 있으면 NEW_HALL 쪽으로 빼고 있던건 삭제" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;position2=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="llCTAwPbCz8SC-4sYd1i-0" value="일치하는 층이 SELECT_HALL_* 에 있으면 NEW_HALL 쪽으로 빼고 있던건 삭제" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;position2=0;fillColor=#fff2cc;strokeColor=#d6b656;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="527.5" y="535" width="190" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="llCTAwPbCz8SC-4sYd1i-1" value="새로 들어온 콜이 있으면 up, dn에 맞게 변수에 입력" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;position2=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="llCTAwPbCz8SC-4sYd1i-1" value="새로 들어온 콜이 있으면 up, dn에 맞게 변수에 입력" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;position2=0;fillColor=#fff2cc;strokeColor=#d6b656;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="560" y="870" width="150" height="70" as="geometry" />
         </mxCell>
       </root>
