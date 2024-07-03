@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-03T02:09:04.094Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="jPB6Y8Izsqi75iN1PUDW" version="24.6.3" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-03T04:12:14.604Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="NKSrxw2mDmcS2w1rmBMQ" version="24.6.3" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="2391" dy="1114" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1214,9 +1214,6 @@
         </mxCell>
         <mxCell id="7aKjPRujK2uRThXWp7mu-42" value="No" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="7aKjPRujK2uRThXWp7mu-27" vertex="1">
           <mxGeometry x="391.52" y="179" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="7aKjPRujK2uRThXWp7mu-43" value="할당된 콜이 현재층 ~ up호콜 층 사이에 있다면" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;position2=0.14;" parent="7aKjPRujK2uRThXWp7mu-27" vertex="1">
-          <mxGeometry x="391.52000000000004" y="10" width="156.96" height="67" as="geometry" />
         </mxCell>
         <mxCell id="7aKjPRujK2uRThXWp7mu-44" value="No" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="7aKjPRujK2uRThXWp7mu-27" vertex="1">
           <mxGeometry x="196.48" y="107" width="60" height="30" as="geometry" />
