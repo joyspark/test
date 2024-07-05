@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-05T02:00:48.105Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="kibTgBSO7rJyRedkOv6L" version="24.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-05T02:01:16.049Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="uKXDoHh54tBqxD9kyMED" version="24.6.4" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="2868" dy="1560" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2959,6 +2959,9 @@
         </mxCell>
         <mxCell id="L2zsAaVWRCpHzkn35VEU-4" value="1, 2호기 모두 난스탑층이면&lt;div&gt;할당된 콜과 버튼램프 지움&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;size=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="4962" y="4270" width="197.49" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="L2zsAaVWRCpHzkn35VEU-5" value="여기 루프 부분 이해&lt;div&gt;잘 안감&lt;/div&gt;" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="387.5" y="4198" width="140" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
